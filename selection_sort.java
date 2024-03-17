@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class selection_sort {
-    public static void main(String[] args) {
+    public static void main(String[] args) {;
         int arr[] = {3,1,5,4,2};
         for (int i = 0;i<arr.length;i++){
             // take last element of array
