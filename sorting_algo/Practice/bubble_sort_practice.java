@@ -2,7 +2,7 @@ package Practice;
 
 import java.util.Arrays;
 
-public class bubble_sort {
+public class bubble_sort_practice {
     public static void main(String[] args) {
         int[] arr = {4,3,2,5,1};
         System.out.println(Arrays.toString(bubble_sorting(arr)));
