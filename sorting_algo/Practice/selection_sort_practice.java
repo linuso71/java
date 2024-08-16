@@ -1,5 +1,3 @@
-package Practice;
-
 import java.util.Arrays;
 
 public class selection_sort_practice {
