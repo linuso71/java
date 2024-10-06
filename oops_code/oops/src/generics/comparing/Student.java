@@ -1,5 +1,7 @@
 package generics.comparing;
 
+import java.util.Comparator;
+
 public class Student implements Comparable<Student> {
     int rollno;
     float marks;
@@ -10,7 +12,16 @@ public class Student implements Comparable<Student> {
     }
 
     @Override
-    public int compareTo(Student o) {
-        return (int)(this.marks - o.marks);
+    public String toString() {
+        return "Student{" +
+                "rollno=" + rollno +
+                ", marks=" + marks +
+                '}';
     }
+
+    @Override
+    public int compareTo(Student o) {
+        return (Float.compare(this.marks, o.marks));
+    }
+
 }
